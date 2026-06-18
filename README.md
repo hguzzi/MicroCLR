@@ -10,8 +10,8 @@ This repository accompanies the paper:
 
 > Defilippo A., Lomoio U., Perri C.F., Veltri P., Guzzi P.H.  
 > **MicroCLR: Contrastive Learning for Microbiome-Based Disease Classification**  
-> *Bioinformatics* (submitted), 2025.  
-> WIVACE 2025 extended abstract also available (see `manuscripts/`).
+> *Preprints* (submitted), 2025.  
+> 
 
 ---
 
