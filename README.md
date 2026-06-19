@@ -299,7 +299,7 @@ If you use MicroCLR in your research, please cite:
   title     = {MicroCLR: Contrastive Learning for Microbiome-Based Disease Classification},
   author    = {Defilippo, Annamaria and Lomoio, Ugo and Perri, Caterina Francesca
                and Veltri, Pierangelo and Guzzi, Pietro Hiram},
-  journal   = {Bioinformatics},
+  journal   = {preprint},
   year      = {2025},
   note      = {Submitted}
 }
