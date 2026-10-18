@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MicroCLR: Contrastive Learning for Microbiome-Based Disease Classification"
+version: "1.1.0"
+date-released: "2026-10-18"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20751445"  # update to the new version DOI after Zenodo release
+license: MIT
+repository-code: "https://github.com/hguzzi/MicroCLR"
+url: "https://github.com/hguzzi/MicroCLR"
+
+abstract: >
+  MicroCLR is a SimCLR-based contrastive self-supervised learning framework for
+  gut microbiome disease classification. It implements eight biologically-motivated
+  and generic data augmentation strategies for CLR-transformed metagenomic profiles,
+  and benchmarks learned representations on four diseases (colorectal cancer, type 2
+  diabetes, inflammatory bowel disease, Parkinson's disease) across seven cohorts
+  under within-cohort cross-validation, leave-one-cohort-out generalization, and
+  low-label fine-tuning protocols. Two novel augmentations are introduced:
+  EcologicalAug (Spearman co-occurrence network-guided community perturbation) and
+  CohortStyleAug (inter-cohort mean-shift style transfer).
+
+authors:
+  - family-names: "Defilippo"
+    given-names: "Annamaria"
+    affiliation: "[Department], [University], [City, Country]"
+  - family-names: "Lomoio"
+    given-names: "Ugo"
+    affiliation: "[Department], [University], [City, Country]"
+  - family-names: "Perri"
+    given-names: "Caterina Francesca"
+    affiliation: "[Department], [University], [City, Country]"
+  - family-names: "Veltri"
+    given-names: "Pierangelo"
+    affiliation: "[Department], [University], [City, Country]"
+  - family-names: "Guzzi"
+    given-names: "Pietro Hiram"
+    affiliation: "[Department], [University], [City, Country]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    email: "pietro.guzzi@unicz.it"
+
+keywords:
+  - microbiome
+  - contrastive learning
+  - self-supervised learning
+  - metagenomics
+  - disease classification
+  - data augmentation
+  - PyTorch
+  - gut microbiome
+  - colorectal cancer
+  - type 2 diabetes
+  - inflammatory bowel disease
+  - Parkinson's disease
+
+preferred-citation:
+  type: article
+  title: "MicroCLR: Contrastive Learning for Microbiome-Based Disease Classification"
+  authors:
+    - family-names: "Defilippo"
+      given-names: "Annamaria"
+    - family-names: "Lomoio"
+      given-names: "Ugo"
+    - family-names: "Perri"
+      given-names: "Caterina Francesca"
+    - family-names: "Veltri"
+      given-names: "Pierangelo"
+    - family-names: "Guzzi"
+      given-names: "Pietro Hiram"
+  journal: "Bioinformatics Advances"
+  year: 2026
+  notes: "Second revision under review (BIOADV-2026-484)"

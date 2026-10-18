@@ -1,0 +1,100 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "MicroCLR: Contrastive Learning for Microbiome-Based Disease Classification",
+  "version": "1.1.0",
+  "datePublished": "2026-10-18",
+  "license": "https://spdx.org/licenses/MIT",
+  "codeRepository": "https://github.com/hguzzi/MicroCLR",
+  "description": "MicroCLR is a SimCLR-based contrastive self-supervised learning framework for gut microbiome disease classification. It implements eight data augmentation strategies for CLR-transformed metagenomic profiles and benchmarks learned representations on four diseases (colorectal cancer, type 2 diabetes, inflammatory bowel disease, Parkinson's disease) across 1,286 samples from seven cohorts. Two novel augmentations are introduced: EcologicalAug (Spearman co-occurrence network-guided perturbation) and CohortStyleAug (inter-cohort mean-shift style transfer).",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Annamaria",
+      "familyName": "Defilippo",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "[University]"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Ugo",
+      "familyName": "Lomoio",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "[University]"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Caterina Francesca",
+      "familyName": "Perri",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "[University]"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Pierangelo",
+      "familyName": "Veltri",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "[University]"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0000-0000-0000",
+      "givenName": "Pietro Hiram",
+      "familyName": "Guzzi",
+      "email": "pietro.guzzi@unicz.it",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "[University]"
+      }
+    }
+  ],
+  "keywords": [
+    "microbiome",
+    "contrastive learning",
+    "self-supervised learning",
+    "metagenomics",
+    "disease classification",
+    "data augmentation",
+    "PyTorch",
+    "gut microbiome"
+  ],
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python",
+      "version": "3.8+"
+    }
+  ],
+  "runtimePlatform": "Python 3.8+",
+  "softwareRequirements": [
+    "torch>=1.12",
+    "numpy",
+    "pandas",
+    "scikit-learn>=1.0",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "umap-learn"
+  ],
+  "developmentStatus": "active",
+  "isPartOf": {
+    "@type": "ScholarlyArticle",
+    "name": "MicroCLR: Contrastive Learning for Microbiome-Based Disease Classification",
+    "author": "Defilippo A., Lomoio U., Perri C.F., Veltri P., Guzzi P.H.",
+    "datePublished": "2025",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bioinformatics (submitted)"
+    }
+  },
+  "url": "https://github.com/hguzzi/MicroCLR",
+  "identifier": "https://doi.org/10.5281/zenodo.20751445"
+}
